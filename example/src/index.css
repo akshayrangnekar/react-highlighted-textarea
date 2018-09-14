@@ -3,3 +3,23 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.rhta-highlights mark.first {
+	background-color: #f9a866;
+}
+
+.rhta-highlights mark.next {
+	background-color: #95f49e;
+}
+
+.rhta-highlights mark.yellow {
+	background-color: #fffa32;
+}
+
+.rhta-container {
+  font-size: 12px;
+}
+
+.rhta-input {
+  height: 200px;
+}

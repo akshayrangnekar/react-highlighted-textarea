@@ -1,8 +1,52 @@
 /* add css styles here (optional) */
 
-.test {
-  display: inline-block;
-  margin: 2em auto;
-  border: 2px solid #000;
-  font-size: 2em;
+.rhta-container {
+	display: inline-block;
+	position: relative;
+	overflow: hidden !important;
+  -webkit-text-size-adjust: none !important;
+  width: 100%;
+}
+
+.rhta-backdrop {
+	position: absolute !important;
+	top: 0 !important;
+	right: -99px !important;
+	bottom: 0 !important;
+	left: 0 !important;
+	padding-right: 99px !important;
+	overflow-x: hidden !important;
+  overflow-y: auto !important;
+}
+
+.rhta-highlights {
+	width: auto !important;
+	height: auto !important;
+	border-color: transparent !important;
+	white-space: pre-wrap !important;
+	word-wrap: break-word !important;
+	color: transparent !important;
+	overflow: hidden !important;
+}
+
+.rhta-input {
+	display: block !important;
+	position: relative !important;
+	margin: 0;
+	padding: 0;
+	border-radius: 0;
+	font: inherit;
+	overflow-x: hidden !important;
+  overflow-y: auto !important;
+}
+
+.rhta-content {
+	border: 1px solid;
+  background: none transparent !important;
+  width: 100%;
+}
+
+.rhta-content mark {
+	padding: 0 !important;
+	background-color: #fffa32;
 }
